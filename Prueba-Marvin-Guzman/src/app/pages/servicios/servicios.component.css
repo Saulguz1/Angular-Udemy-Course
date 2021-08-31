@@ -1,0 +1,28 @@
+.img{    
+    width:500px ;
+    height:500px auto;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+  .img img{
+    width: 100%;
+  }
+ 
+  .img img{
+     width:100%;
+  }
+
+
+  .botonazo{
+    border-radius: 50px;
+    background-color: turquoise;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border: none;
+  }
+
+  .botonazo:hover{
+    background-color: teal;
+  }

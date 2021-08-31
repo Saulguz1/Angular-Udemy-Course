@@ -1,0 +1,56 @@
+
+.fondoabout{
+    text-align: center;
+    background-image:url('../../../assets/images/fondo.jpg' ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100% ;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+@media all and (min-width: 500px) and (max-width: 1000px)
+{  
+.fondoabout{
+  position:static;
+  z-index: 0;
+  }
+}
+
+.text{
+    
+    margin: 30px ;
+    text-align: center;
+    color: gray;
+    display: inline-block;
+  }
+
+#left {
+    float:left;
+    width:auto;
+    margin: 30px ;
+}
+
+#center {
+    display: inline-block;
+    margin: 30px ;
+    width:auto;
+}
+
+#right {
+    float:right;
+    width:auto;
+    margin: 30px ;
+}
+ 
+h5{
+    color: white; 
+    text-align: left;
+}
+
+h6{
+    color: turquoise; 
+    text-align: left;
+}

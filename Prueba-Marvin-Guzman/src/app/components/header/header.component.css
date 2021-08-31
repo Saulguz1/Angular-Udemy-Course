@@ -1,0 +1,39 @@
+.headerstyle header{
+    background-color: dimgray;
+    width: 100%;
+    height: 50px ;
+}
+
+.lista li{
+    display: inline;
+    color: whitesmoke;
+    font-size: small;
+}
+
+.lista2 li{
+    display: inline;
+    color: turquoise;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px ;
+}
+
+.divcont{
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 50%;
+}
+
+.divcont2{
+    float: right;
+    height: 100%;
+    width: 50%;
+    
+}

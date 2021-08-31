@@ -1,0 +1,34 @@
+
+.fondoabout{
+    text-align: center;
+    background-image:url('../../../assets/images/fondo.jpg' ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100% ;
+}
+
+
+.text{
+    
+    margin: 30px ;
+    text-align: center;
+    color: whitesmoke;
+    display: inline-block;
+  }
+
+  .botonazo{
+    border-radius: 50px;
+    background-color: turquoise;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border: none;
+  }
+
+  .botonazo:hover{
+    background-color: teal;
+  }
+
+ 

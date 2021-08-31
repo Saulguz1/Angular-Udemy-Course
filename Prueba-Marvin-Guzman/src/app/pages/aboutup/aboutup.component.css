@@ -1,0 +1,32 @@
+.icon-color {
+    color:#1886c1;
+  }
+
+.cuadroup{
+  position: absolute; 
+  top: 250px; 
+  z-index: 3;
+  width: 100%;
+}
+
+@media all and (min-width: 500px) and (max-width: 1000px)
+{  
+.cuadroup{
+  position:static;
+  z-index: 0;
+  }
+}
+.row{
+  background-color: cornflowerblue;
+    margin-left: 100px;
+    margin-right: 150px
+}
+
+h3{
+  color: white; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+  color: white;
+  }

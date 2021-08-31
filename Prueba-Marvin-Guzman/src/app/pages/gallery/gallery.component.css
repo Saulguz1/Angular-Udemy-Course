@@ -1,0 +1,44 @@
+
+
+  .linimg{
+    width: 100% ;
+    height: 250px;
+    max-height: 250px;
+    text-align: center;
+
+  }
+
+  .imgbox{
+    width: 24% ;
+    height: 100%;
+    margin: 5px;
+    float: left;
+  }
+
+
+  .imagen{
+    width: 100%;
+    height: 100%;
+  }
+
+  .primera{
+    margin-left: 0px;
+  }
+
+  .ultima{
+    margin-right: 0px;
+  }
+
+  @media all and (min-width: 500px) and (max-width: 1000px)
+  {  
+  .imgbox{
+    margin:1px auto;
+    padding:13px;
+    width:300px;
+    height:300px auto;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    }
+  }
